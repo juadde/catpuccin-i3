@@ -11,5 +11,5 @@ static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
 	[SchemeNorm] = { "#{{ palette.text.hex }}", "#{{ palette.base.hex }}" },
 	[SchemeSel] = { "#{{ palette.base.hex }}", "#{{ palette[accent].hex }}" },
-	[SchemeOut] = { "#{{ palette.crust.hex }}", "#{{ palette[accent].hex }}" },
+	[SchemeOut] = { "#{{ palette.text.hex }}", "#{{ palette[accent].hex }}" },
 };

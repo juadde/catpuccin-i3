@@ -9,4 +9,4 @@ whiskers:
 {%- set palette = flavor.colors -%}
 dmenu_run -nf '#{{ palette.text.hex }}' -nb '#{{ palette.base.hex }}'\
 	-sf '#{{ palette.base.hex }}' -sb '#{{ palette[accent].hex }}'\
-	-of '#{{ palette.crust.hex }}' -ob '#{{ palette[accent].hex }}'
+	-of '#{{ palette.text.hex }}' -ob '#{{ palette[accent].hex }}'
